@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgSound"
+        style="@style/ImagesMenu"
+        app:layout_constraintBottom_toBottomOf="@+id/imgColorMode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgColorMode"
+        app:srcCompat="@drawable/sound_on_icon" />
+
+    <TextView
+        android:id="@+id/txtStart"
+        style="@style/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        app:layout_constraintBottom_toTopOf="@+id/txtAchievements"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/txtAchievements"
+        style="@style/Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/achievements"
+        android:transitionName="achievements_transition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        style="@style/ImagesMenu"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgColorMode"
+        app:layout_constraintEnd_toStartOf="@+id/imgColorMode"
+        app:layout_constraintTop_toTopOf="@+id/imgColorMode"
+        app:srcCompat="@drawable/change_color_mode" />
+
+    <ImageView
+        android:id="@+id/imgColorMode"
+        style="@style/ImagesMenu"
+        app:layout_constraintBottom_toTopOf="@+id/txtStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgPlayerColor"
+        style="@style/ImagesMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAchievements"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/ImagesMenu"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgPlayerColor"
+        app:layout_constraintStart_toEndOf="@+id/imgPlayerColor"
+        app:srcCompat="@drawable/choose_player" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

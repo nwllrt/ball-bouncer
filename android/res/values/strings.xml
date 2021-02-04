@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">BallBouncer</string>
+    <string name="title_activity_menu" translatable="false">BallBouncer</string>
+    <string name="high_score" translatable="false">HighScore\n%1$d</string>
+    <string name="saved_high_score_key" translatable="false">highScore</string>
+    <string name="saved_high_score_pref_id" translatable="false">highScore</string>
+    <string name="saved_total_games_key" translatable="false">totalGames</string>
+    <string name="saved_total_games_pref_id" translatable="false">totalGames</string>
+    <string name="saved_total_food_key" translatable="false">totalFood</string>
+    <string name="saved_total_food_pref_id" translatable="false">totalFood</string>
+    <string name="saved_collected_together_key" translatable="false">collectedTogether</string>
+    <string name="saved_collected_together_pref_id" translatable="false">collectedTogether</string>
+    <string name="saved_hit_streak_key" translatable="false">hitStreak</string>
+    <string name="saved_hit_streak_pref_id" translatable="false">hitStreak</string>
+    <string name="saved_color_mode_key" translatable="false">colorMode</string>
+    <string name="saved_color_mode_pref_id" translatable="false">colorMode</string>
+    <string name="saved_sound_key" translatable="false">sound</string>
+    <string name="saved_sound_pref_id" translatable="false">sound</string>
+    <string name="saved_player_color_key" translatable="false">playerColor</string>
+    <string name="saved_player_color_pref_id" translatable="false">playerColor</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="color_mode" translatable="false">colorMode</string>
+    <string name="player_color" translatable="false">playerColor</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="achievements" translatable="false">Achievements</string>
+    <string name="choose_player" translatable="false">Choose your player</string>
+    <string name="progress" translatable="false">%1$d / %2$d</string>
+
+    <string name="achievements_highscore_1">Beginner</string>
+    <string name="achievements_highscore_2">Hustler</string>
+    <string name="achievements_highscore_3">Legend</string>
+    <string name="achievements_highscore_4">GOAT</string>
+    <string name="achievements_food_1">Soup kitchen</string>
+    <string name="achievements_food_2">Fruit Counter</string>
+    <string name="achievements_food_3">Im Rich</string>
+    <string name="achievements_food_4">King</string>
+    <string name="achievements_games_1">Basics</string>
+    <string name="achievements_games_2">Member</string>
+    <string name="achievements_games_3">Matterhorn</string>
+    <string name="achievements_games_4">Mount Everest</string>
+    <string name="achievements_streak_1">Warm Up</string>
+    <string name="achievements_streak_2">Getting started</string>
+    <string name="achievements_streak_3">Captain</string>
+    <string name="achievements_streak_4">Insanity</string>
+</resources>

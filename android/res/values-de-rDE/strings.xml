@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="achievements_highscore_1">Anfänger</string>
+    <string name="achievements_highscore_2">Hustler</string>
+    <string name="achievements_highscore_3">Legende</string>
+    <string name="achievements_highscore_4">GOAT</string>
+    <string name="achievements_food_1">Suppenküche</string>
+    <string name="achievements_food_2">Obst Theke</string>
+    <string name="achievements_food_3">ICH BIN REICH</string>
+    <string name="achievements_food_4">King</string>
+    <string name="achievements_games_1">Die Basics</string>
+    <string name="achievements_games_2">Buchclubmember</string>
+    <string name="achievements_games_3">Zugspitze</string>
+    <string name="achievements_games_4">Mount Everescht</string>
+    <string name="achievements_streak_1">Warm Up</string>
+    <string name="achievements_streak_2">Patent A, B, C und die 6</string>
+    <string name="achievements_streak_3">Captain zur See</string>
+    <string name="achievements_streak_4">Zu wild hrr</string>
+</resources>
